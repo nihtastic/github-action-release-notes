@@ -21,9 +21,9 @@ try {
   }
 
   const result = await github.repos.listPullRequestsAssociatedWithCommit({
-    owner: context.repo.owner,
-    repo: context.repo.repo,
-    commit_sha: context.sha,
+    owner: github.context.repo.owner,
+    repo: github.context.repo.repo,
+    commit_sha: github.context.sha,
   })
 
   console.log(result.data)
