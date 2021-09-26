@@ -1,0 +1,23 @@
+{
+  "name": "github-action-release-notes",
+  "version": "1.0.0",
+  "description": "Github action for assembling release notes from PRs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihtastic/github-action-release-notes.git"
+  },
+  "keywords": [],
+  "author": "Mike Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nihtastic/github-action-release-notes/issues"
+  },
+  "homepage": "https://github.com/nihtastic/github-action-release-notes#readme",
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0",
+    "@slack/web-api": "^6.4.0",
+    "slackify-markdown": "^4.3.0"
+  }
+}

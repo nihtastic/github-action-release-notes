@@ -1,0 +1,12 @@
+name: 'Release Notes Publisher'
+description: 'Publish release notes to Slack'
+inputs:
+  channel:
+    description: 'Slack channel to publish to'
+    required: true
+    default: 'test'
+  app-name:
+    description: 'Descriptive name for the application'
+runs:
+  using: 'node12'
+  main: 'index.js'
